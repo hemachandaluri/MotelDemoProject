@@ -19,7 +19,6 @@ public class CatergoryRequirements
 	public CatergoryRequirements(long id, String bed, int rooms, boolean bathroom, boolean private_pool,
 			boolean mini_Kitchen, int number_of_guests, float rate, float rate_for_additional_guests, boolean balcony,
 			boolean shared_room, boolean enable) {
-		super();
 		this.id = id;
 		this.bed = bed;
 		this.rooms = rooms;
