@@ -3,14 +3,24 @@ package com.MotelDemo.Project;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
+import MotelDemoProject.BookingRoomReq;
+import MotelDemoProject.BookingServiceReq;
 import MotelDemoProject.CatergoryRequirements;
+import MotelDemoProject.EmployeeReq;
+import MotelDemoProject.EmployeeTracking;
+import MotelDemoProject.GuestDetailsreq;
 import MotelDemoProject.Service;
 
 public class Application {
 
 	ArrayList<CatergoryRequirements> categories = new ArrayList<CatergoryRequirements>();
 	ArrayList<Service> services = new ArrayList<Service>();
+	ArrayList<EmployeeReq> ER = new ArrayList<EmployeeReq>();
+	ArrayList<EmployeeTracking> ET = new ArrayList<EmployeeTracking>();
+	ArrayList<GuestDetailsreq> GR = new ArrayList<GuestDetailsreq>();
+	ArrayList<BookingRoomReq> BRR = new ArrayList<BookingRoomReq>();
+	ArrayList<BookingServiceReq> BSR = new ArrayList<BookingServiceReq>();
+
 	HashMap<String, List<?>> tempMap = new HashMap<>();
 
 	/*
