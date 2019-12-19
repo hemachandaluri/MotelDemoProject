@@ -23,28 +23,15 @@ public class Application {
 
 	HashMap<String, List<?>> tempMap = new HashMap<>();
 
-	/*
-	 * Create method and pass list and return the even data list
-	 * 
-	 */
-
 	public static void main(String[] args) {
 		Application application = new Application();
 		application.AddData();
 		application.addServices();
-		//String tempValue = application.returnGivenNumber(10);
-		//System.out.println("value from givenMethod :: " + tempValue);
 
 	}
 
 	
 	  public List<Service> evenDatalist(ArrayList<Service> temp) {
-		 /**For each ASerice in the list 
-		  * Wee return listand add required service to that list
-		  * 
-		  * 
-		  */
-		  
 		  //return result list
 		  ArrayList<Service> mServices = new ArrayList<Service>();	
 		  
@@ -71,9 +58,6 @@ public class Application {
 	  }
 	 
 
-/*	public String returnGivenNumber(int value) {
-		return value+1+"";
-	}*/
 
 //AddServiceData
 	public void addServices() {
